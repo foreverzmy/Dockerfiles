@@ -7,3 +7,17 @@ docker run -it -v xx:/workspace -p 127.0.0.1:9000:3000 node:9.
 watchOptions: {
     poll: true
   }
+
+
+
+win10 bash run docker
+
+$vim ~/.bashrc
+
+```
+PATH="$HOME/bin:$HOME/.local/bin:$PATH"
+PATH="$PATH:/mnt/c/Program\ Files/Docker/Docker/resources/bin"
+export DOCKER_HOST='tcp://0.0.0.0:2375'
+```
+
+source ~/.bashrc

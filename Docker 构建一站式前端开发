@@ -14,6 +14,8 @@ win10 bash run docker
 
 $vim ~/.bashrc
 
+http://www.linuxidc.com/Linux/2017-11/148438.htm
+
 ```
 PATH="$HOME/bin:$HOME/.local/bin:$PATH"
 PATH="$PATH:/mnt/c/Program\ Files/Docker/Docker/resources/bin"
